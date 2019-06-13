@@ -14,7 +14,7 @@ use Illuminate\Auth\Events\Login;
 use Illuminate\Auth\Events\Logout;
 use Illuminate\HTTP\Request;
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Foundation\Support\Providers\EventServiceProvider;
+use Laravel\Lumen\Providers\EventServiceProvider;
 
 class Service extends EventServiceProvider
 {
